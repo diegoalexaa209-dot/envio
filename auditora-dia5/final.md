@@ -1,0 +1,2 @@
+# Final
+Daniel camino un pequeño tiempo hasta encontrar un pequeño rio que aparecia en una parte del mapa que todavia podia leer. siguio el rio y finalmente encontro el camino de regreso a su pueblo no logro encontrar el tesoro pero regreso feliz porque aprendio que la valentia y la tranquilidad son importantes para solucinar los problemas 

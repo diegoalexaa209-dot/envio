@@ -1,0 +1,14 @@
+## DIA 3
+## Actividad 1
+1. el PATH se utiliza con este comado, $env:USERPROFILE
+$env:PATH -split ';' 
+2. ¿porq permite escribir git desde cualquier carpeta?:Git permite ejecutar sus comandos desde cualquier carpeta gracias a la variable de entorno PATH de tu sistema operativo.  
+## Actividad 2
+1. ping: verifica si tu computadora tiene conexion o paginas web de interned
+2. cd: te mueve de una carpeta a otra en el sistema
+3. pwd: muestra la carpeta en la que esta trabajando
+4. mkdir carpeta:crea una nueva carpeta
+5. Is: muestra los archivos carpetas del lugar actual
+6. Move-Item: elimina un archivo o carpeta
+7. New-Item: crea un archivo nuevo
+8. Copy-Item: copia un archivo a otra ubicacion 
