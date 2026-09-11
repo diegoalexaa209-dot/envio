@@ -1,0 +1,128 @@
+.box {
+    background-color:rgba(13, 13, 207, 0.712);
+    display: grid;
+    grid-template-columns: 1fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    animation: move 2s infinite alternate;
+    margin-bottom: 20px;
+
+}
+
+.box:hover {
+    transform: rotate(180deg);
+    transition: trasform 0.5s;
+
+
+}
+
+.box2 {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 5fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    margin-bottom: 20px;
+
+}
+
+.box2:hover {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+
+
+}
+
+.box3 {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 5fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    margin-bottom: 20px;
+
+}
+
+.box3:hover {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+
+}
+
+.box3 {
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 5fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    margin-bottom: 20px;
+
+}
+
+.box3:hover{
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+
+}
+
+.box4 {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 5fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    margin-bottom: 20px;
+
+
+}
+
+.box4:hover {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+
+}
+
+.box5 {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 5fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    margin-bottom: 20px;
+
+}
+
+.box5:hover {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+
+}
+
+.box6 {
+    background-color: rgb(222, 221, 135);
+    display: grid;
+    grid-template-columns: 5fr;
+    outline: 3px solid #080601;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 330px;
+    margin-bottom: 20px;
+
+}
+
+.box6:hover {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}

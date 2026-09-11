@@ -1,0 +1,81 @@
+body {
+    font-family: arias sans-serif
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: auto;
+    background: aqua;
+    padding: 25px;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+}
+
+.agregar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+input,
+select {
+    padding: 10px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.filtros {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+#contenedor {
+    font-weight: bold;
+
+}
+
+li{
+    list-style: none;
+    padding: 12px;
+    margin: 8px 0;
+    background: #eeeeee;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completada {
+    text-decoration: line-through;
+    opacity: 0.6;
+
+}
+
+.eliminar {
+    background: #d9534f;
+    color: white;
+} 
+.editar {
+    background: #f0ad4e;
+    color: white; 
+}
+
+#btnborrartodo {
+    background: #b9534f;
+    color:white;
+    display: block;
+    margin: 20px auto
+}
+ 
+
+    
