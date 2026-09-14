@@ -55,24 +55,6 @@
 
 }
 
-.box3 {
-    background-color: chartreuse;
-    display: grid;
-    grid-template-columns: 5fr;
-    outline: 3px solid #080601;
-    gap: 1.5rem;
-    padding: 1rem;
-    max-width: 330px;
-    margin-bottom: 20px;
-
-}
-
-.box3:hover{
-    transform: rotate(180deg);
-    transition: transform 0.5s;
-
-}
-
 .box4 {
     background-color: aqua;
     display: grid;
