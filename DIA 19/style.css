@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: arial sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    background-color: #157788;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+input {
+    width: 65%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #999;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 6px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+button:focus
+input:focus{
+    outline: 3px solid #88f50b;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(32, 121, 121);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+.completada {
+    text-decoration: 
+    line-through;
+    opacity: 0.6;
+}
+
+.eliminar {
+    background-color: chartreuse;
+}
+
+.accesibilidad {
+    text-align:center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/*texto grande*/
+.texto-grande {
+    font-size: 20px;
+}
+
+/* Alto contraste */
+.alto-contraste {
+    background-color: black;
+    color: white;
+}
+
+.alto-contrate section {
+    background-color: rgb(34, 106, 119);
+    border: 2px solid white;
+}
+
+.alto-contraste input {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Modo caos */
+.modo-caos {
+    transform: rotate(0.5deg);
+}
+
+.modo-caos section {
+    border: 3px dashed red;
+}

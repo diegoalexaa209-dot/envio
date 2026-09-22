@@ -1,0 +1,366 @@
+:root {
+    --color-primary: #721226;
+    --color-primary-dark:: #1dc2d8;
+
+    --color-background: #f3f5f6;
+    --color-surface: #037a67;
+
+    --color-text: #000000;
+    --color-text-light: #464a52;
+
+    --color-success: #166534;
+    --color-success-bg: #fcf9dc;
+
+    --color-error: #991b1b;
+    --color-error-bg: #fee2e2;
+
+    --color-border: #d1d5db;
+
+    --radius: 12px;
+
+    --shadow : 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background: var(--color-background);
+    color: var(--color-text);
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   CONTENEDOR
+========================= */
+
+.container {
+    width: min(100% - 2rem, 1000px);
+    margin-inline: auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.site-header {
+    background: var(--color-primary);
+    color: rgb(225, 254, 255);
+    padding: 2rem 0;
+}
+
+.site-header h1 {
+    margin-bottom: 0.25rem;
+}
+
+.site-header p {
+    margin-top: 0;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    padding-block: 2rem;
+}
+
+
+/* =========================
+   PANELES
+========================= */
+
+.panel {
+    background: var(--color-surface);
+
+    padding: 1.5rem;
+
+    margin-bottom: 1.5rem;
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+}
+
+.panel h2 {
+    margin-top: 0;
+}
+
+
+/* =========================
+   FORMULARIOS
+========================= */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    margin-bottom: 1rem;
+}
+
+input,
+select {
+    width: 100%;
+
+    padding: 0.75rem;
+
+    border: 1px solid var(--color-border);
+
+    border-radius: 8px;
+
+    font: inherit;
+
+    background: white;
+}
+
+.form-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+button {
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 0.75rem 1rem;
+
+    font: inherit;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    background: var(--color-primary);
+    color: white;
+}
+
+button:hover {
+    background: var(--color-primary-dark);
+}
+
+.secondary-button {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.secondary-button:hover {
+    background: #d1d5db;
+}
+
+/* =========================
+   PROGRESO
+========================= */
+
+progress {
+    width: 100%;
+    height: 1.5rem;
+}
+
+
+/* =========================
+   MENSAJES
+========================= */
+
+.message {
+    padding: 1rem;
+
+    border-radius: 8px;
+
+    margin-bottom: 1rem;
+}
+
+.success {
+    background: var(--color-success-bg);
+    color: var(--color-success);
+}
+
+.error {
+    background: var(--color-error-bg);
+    color: var(--color-error);
+}
+
+
+/* =========================
+   LISTA
+========================= */
+
+.section-heading {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.task-list {
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    display: grid;
+
+    gap: 1rem;
+}
+
+
+/* =========================
+   TAREA
+========================= */
+
+.task-card {
+    background: white;
+
+    border: 1px solid var(--color-border);
+
+    border-radius: var(--radius);
+
+    padding: 1rem;
+
+    box-shadow: var(--shadow);
+}
+
+.task-header {
+    display: flex;
+
+    gap: 1rem;
+
+    align-items: flex-start;
+}
+
+.task-title {
+    margin: 0;
+
+    font-size: 1.1rem;
+}
+
+.task-completed .task-title {
+    text-decoration: line-through;
+
+    color: var(--color-text-light);
+}
+
+.task-meta {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    margin-top: 0.75rem;
+}
+
+.badge {
+    display: inline-block;
+
+    padding: 0.25rem 0.6rem;
+
+    border-radius: 999px;
+
+    background: #e5e7eb;
+
+    font-size: 0.85rem;
+}
+
+.task-actions {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    margin-top: 1rem;
+}
+
+
+/* =========================
+   ESTADO VACÍO
+========================= */
+
+.empty-state {
+    text-align: center;
+
+    background: white;
+
+    padding: 3rem 1rem;
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+
+    margin-bottom: 1rem;
+}
+
+
+/* =========================
+   FOCO
+========================= */
+
+:focus-visible {
+    outline: 3px solid #f59e0b;
+
+    outline-offset: 3px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+    padding: 2rem 0;
+
+    text-align: center;
+
+    color: var(--color-text-light);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (min-width: 700px) {
+
+    .filters {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-group {
+        max-width: 100%;
+    }
+
+}
