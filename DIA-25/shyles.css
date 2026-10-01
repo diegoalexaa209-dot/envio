@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #070707 0%, #000000 50%, #000000 100%);
+  color: #ffffff;
+  min-height: 100vh;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.header{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.star-icon {
+  color: #f39c12;
+  font-size: 1.8rem;
+}
+
+.subtitle{
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.btn-animar {
+  margin-top: 25px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #c0ccdf, #80869e);
+  border: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(71, 84, 105, 0.5);
+  transition: all 0.20s ease;
+}
+.btn-animar:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.grid-equipos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 25px;}
+  
+  .en-movimiento {
+  animation: moverEquipo 1.2s ease-in-out infinite alternate;
+  border-color: #f1c40f;
+  box-shadow: 0 0 20px rgba(241, 196, 15, 0.6);
+}
+
+.brincar {
+  animation: brincarEscudo 0.20s ease-in-out infinite alternate;
+}
+
+@keyframes brincarEscudo {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-25px); 
+  }
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(218, 236, 236, 0.918);
+}
+
+.informacion {
+    margin-left: grid;
+    align-items: center;
+ 
+
+}
+
+#jugador2 img {
+    border: 10px solid black;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagen img {
+    border-radius: 20px;
+    margin-left: 100px;
+    border: 10px solid black;
+
+}

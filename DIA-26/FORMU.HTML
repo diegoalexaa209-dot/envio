@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="mai.css">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <H4>Nombre</H4>
+    <input id="nombre" type="text" placeholder="ingresar..">
+
+    <div id="fecha">
+        <h4>Fecha de nacimiento</h4>
+        <input id="inputedad" type="date" placeholder="ingresar..">
+    </div>
+    <h4>Equipo</h4>
+    <select id="select1">
+  <option value="Barca">FC Barcelona</option>
+  <option value="RealMadridCF">Real Madrid</option>
+  <option value="ManchesterCity">Manchester City</option>
+  <option value="PSG">PSG</option>
+</select>
+
+    <button id="btnfecha" type="button">Enviar</button>
+    <button id="btnborrar" type="button">Borrar</button>
+    <div id="resultado"></div>
+    <div id="resul1"></div>
+    <div class="contenedor">
+        <div id="listabarca">
+            <h4>FC Barcelona</h4>
+            <ul id="lista-barca"></ul>
+        </div>
+        <div id="listareal">
+            <h4>Real Madrid CF</h4>
+            <ul id="lista-real"></ul>
+        </div>
+        <div id="listacity">
+            <h4>Manchester City</h4>
+            <ul id="lista-city"></ul>
+        </div>
+        <div id="listapsg">
+            <h4>PSG</h4>
+            <div id="lista-psg"></div>
+        </div>
+    </div>
+     <script src="formu.js"></script>
+</body>
+</html>
